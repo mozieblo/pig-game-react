@@ -1,0 +1,12 @@
+.active { background-color: rgba(129, 115, 129, 0.3); }
+.active .player-name { font-weight: 300; }
+
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: rgba(148, 51, 122, 0.74);
+    top: -7px;
+    right: 10px;
+    
+}

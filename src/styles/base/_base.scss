@@ -1,0 +1,31 @@
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-image: linear-gradient(rgba(13, 6, 17, 0.767), rgba(13, 6, 17, 0.767)), url(/dist/images/back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 600;
+    position: relative;
+    height: 100vh;
+    color: rgb(225, 209, 228);
+}

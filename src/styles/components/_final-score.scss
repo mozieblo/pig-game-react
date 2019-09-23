@@ -1,0 +1,15 @@
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 520px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-align: center;
+    padding: 5px;
+    width: 170px;
+    text-transform: uppercase;
+}
+
+.final-score:focus { outline: none; }
